@@ -11,7 +11,7 @@ const appRouter = createBrowserRouter([{
   path: "/",
   element: <Body />,
   children: [
-    // this will go inside Outlet which is in Body
+
     {
       path: "/",
       element: <MainContanier />,
