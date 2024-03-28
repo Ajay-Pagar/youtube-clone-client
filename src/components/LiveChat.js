@@ -50,7 +50,7 @@ const LiveChat = () => {
         }}
       >
         <input
-          className="px-2 w-96"
+          className="px-2 w-96 border border-black"
           type="text"
           value={liveMessgae}
           onChange={(e) => setLiveMessage(e.target.value)}

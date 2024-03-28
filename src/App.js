@@ -6,6 +6,8 @@ import { Provider } from "react-redux";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainContanier from "./components/MainContanier";
 import WatchPage from "./components/WatchPage";
+import Memoization from "./components/Memoization";
+import UseRef from "./components/UseRef";
 
 const appRouter = createBrowserRouter([{
   path: "/",
@@ -19,6 +21,10 @@ const appRouter = createBrowserRouter([{
     {
       path: "watch",
       element: <WatchPage />,
+    },
+    {
+      path: "memoization",
+      element: <><Memoization /> <UseRef/></>,
     },
   ],
 }]);
